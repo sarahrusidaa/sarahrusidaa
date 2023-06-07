@@ -1,0 +1,137 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    padding-right: 2em;
+  }
+  
+  .nav-bar {
+    display: flex;
+    border: 1px solid black;
+    border-radius: 5px;
+    object-fit: cover;
+    position: relative;
+  }
+  
+  .nav-item {
+    padding: 3px 2em;
+    width: 80px;
+    border-right: 1px solid black;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    list-style: none;
+  }
+  
+  nav.item:hover {
+    background: rgb(116, 134, 139);
+    margin-top: -3px;
+    position: absolute;
+    width: 100%;
+  }
+  
+  .navbar:last-child {
+    border-right: none;
+  }
+  
+  .logo {
+    height: 3em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    line-height: 50px;
+  }
+  
+  .jkt {
+    height: 7em;
+    border-style: groove;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 7em;
+  }
+  
+  .bdg {
+    height: 7em;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 7em;
+  }
+  
+  .sby {
+    height: 7em;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 7em;
+  }
+  
+  .hero {
+    height: 550px;
+    background-image: url(../img/background.jpg);
+    background-size: 1366px 578px;
+    background-position: center;
+    text-align: left;
+    border: 1px solid black;
+    padding-left: 2em;
+  }
+  
+  .ya {
+    border: 1px solid black;
+    padding-left: 1em;
+  }
+  
+  .message-us {
+    border: 1px solid black;
+    padding-left: 2em;
+  }
+  
+  .pesan {
+    padding-left: 35em;
+    text-align: justify;
+  }
+  
+  .ini {
+    padding-right: 100em;
+  }
+  
+  .wrapper {
+    display: flex;
+  }
+  
+  .headquarters-image {
+    height: 7em;
+    border: 1px solid black;
+    border-radius: 150%;
+    width: 7em;
+  }
+  
+  .headquarters-image-container {
+    display: inline-flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 1em;
+    padding-left: 1em;
+  }
+  
+  footer {
+    text-decoration: none;
+    text-align: right;
+  }
+  
+  .submit {
+    background-color: transparent grey;
+    padding: 2.25px 115px;
+    cursor: pointer;
+    margin: 5px 5px;
+    text-decoration: none;
+  }
+  
+  .id {
+    border: 1px solid black;
+    align-content: flex-end;
+    padding-right: 2em;
+    direction: inherit;
+    line-height: 50px;
+  }
+  
+  
